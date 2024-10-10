@@ -6,8 +6,7 @@ waiting sa desc ng POS System
     ```bash
     git clone https://github.com/your-username/FI-POS.git
     ```
-### Step 2: Rename the '.env' File
-- Rename the '.env.example' file to '.env'.
+### Step 2: Rename the '.env.example' file to '.env'
 ### Step 3: Configure Database Settings
 - Open 'config/database.php'.
 - In the 'connections' array, locate the 'sqlsrv' section (used for SQL Server).
