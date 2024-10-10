@@ -7,6 +7,14 @@ waiting sa desc ng POS System
     git clone https://github.com/your-username/FI-POS.git
     ```
 ### Step 2: Rename the '.env.example' file to '.env'
+- Uncomment the following lines:
+    ```bash
+    # DB_HOST=localhost             
+    # DB_PORT=1433                  
+    # DB_DATABASE=fi-pos_db         
+    # DB_USERNAME=your_db_username  
+    # DB_PASSWORD=your_db_password  
+    ```
 ### Step 3: Configure Database Settings
 - Open 'config/database.php'.
 - In the 'connections' array, locate the 'sqlsrv' section (used for SQL Server).
